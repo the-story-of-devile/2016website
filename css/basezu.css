@@ -1,0 +1,44 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0;
+	padding:0;
+}
+a
+{
+	text-decoration:none;
+	color:#000;
+}
+body
+{
+	line-height:100%;
+	font-size:12px;
+	font-family:'微软雅黑';
+}
+h1,h2,h3,h4,h5,h6,i,em,b,strong
+{
+	line-height:100%;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+}
+img
+{
+	vertical-align:top;   /*解决IMG留白的bug，而且保留原来的行内块属性*/
+	border:none;
+}
+li
+{
+	list-style:none;
+}
+.clearfix:after  /*清除浮动*/
+{
+	display:block;
+	clear:both;
+	content:'';
+}
+.clearfix
+{
+	zoom:1;
+}
